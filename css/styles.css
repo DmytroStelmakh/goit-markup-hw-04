@@ -96,9 +96,14 @@ body {
   display: flex;
 }
 
-.menu-link-header {
+.menu-link-header,
+.header-contact {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.menu-item {
+  display: inline-block;
 }
 
 .menu-item:not(:last-child) {
@@ -331,13 +336,14 @@ body {
   color: var(--primary-title-color);
 }
 
-.footer-connect-item {
+.footer-connect-phone {
   margin-top: 9px;
 }
 
 .footer-connect {
   display: flex;
   flex-direction: column;
+  margin-top: 9px;
 }
 
 .address-connect-item {
