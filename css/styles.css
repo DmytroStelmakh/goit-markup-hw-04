@@ -154,11 +154,14 @@ body {
   background-color: var(--hero-color);
   padding-top: 200px;
   padding-bottom: 200px;
-}
-
-.hero-container {
-  background-color: var(--hero-color);
-  width: 696px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .main-title {
@@ -170,12 +173,9 @@ body {
   text-align: center;
   color: var(--primary-title-color);
   margin-bottom: 30px;
+  width: 696px;
+  margin-left: 252px;
 }
-
-/*padding-top: 200px;
-  padding-bottom: 30px;
-  padding-left: 252px;
-  padding-right: 252px; */
 
 .btn-title {
   font-family: inherit;
@@ -191,7 +191,7 @@ body {
   color: var(--primary-title-color);
   cursor: pointer;
   padding: 10px 32px;
-  margin-left: 233px;
+  margin-left: 500px;
 }
 
 .section {
@@ -282,6 +282,9 @@ body {
 
 .team-item {
   background-color: var(--primary-title-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-name {
@@ -375,6 +378,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  box-sizing: border-box;
   border-radius: 4px;
   border: 0;
   background-color: var(--btn-item-color);
@@ -390,6 +394,8 @@ body {
 .btn-item:focus {
   color: var(--primary-title-color);
   background-color: var(--logo-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .btn-item:active {
@@ -407,7 +413,15 @@ body {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
-  /* border-bottom: 1px solid var(--item-border-color);*/
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.cart-item:hover,
+.cart-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 img {
