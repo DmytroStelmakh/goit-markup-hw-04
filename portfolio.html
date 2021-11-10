@@ -32,11 +32,19 @@
             </ul>
         </nav>
         <ul class="list menu-list header-connect">
-            <li class="list-header-mail list-header-contact">
-                <a class="header-contact link header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li class="list-header-mail list-header-contact contact-item">
+                <a class="header-contact link header-mail contact-link" href="mailto:info@devstudio.com">
+                    <svg class="contact-icon" width="16" height="12">
+                        <use href="./images/icons.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com</a>
             </li>
-            <li class="list-header-contact">
-                <a class="header-contact link header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="list-header-contact contact-item">
+                <a class="header-contact link header-phone contact-link" href="tel:+380961111111">
+                    <svg class="contact-icon" width="10" height="16">
+                        <use href="./images/icons.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a>
             </li>
         </ul>
     </div>
@@ -63,55 +71,55 @@
                 </li>
             </ul>
             <ul class="list cart-list">
-                <li class="cart-item"><img src="./images/Технокряк.jpg" alt="site" width="370" height="294">
+                <li class="cart-item"><img src="./images/technokryak.jpg" alt="site" width="370" height="294">
                     <div class="cart-item-text">
                     <h3 class="project-title">Технокряк</h3>
                     <p class="project-body">Веб-сайт</p>
                     </div>
                 </li>
-                <li class="cart-item"><img src="./images/Постер.jpg" alt="design" width="370" height="294">
+                <li class="cart-item"><img src="./images/poster.jpg" alt="design" width="370" height="294">
                     <div class="cart-item-text">
                     <h3 class="project-title">Постер <span lang="en">New Orlean vs Golden Star</span> </h3>
                     <p class="project-body">Дизайн</p>
                     </div>
                 </li>
-                <li class="cart-item"><img src="./images/Ресторан.jpg" alt="app" width="370" height="294">
+                <li class="cart-item"><img src="./images/restoran.jpg" alt="app" width="370" height="294">
                     <div class="cart-item-text">
                     <h3 class="project-title">Ресторан <span lang="en">Seafood</span></h3>
                     <p class="project-body">Приложение</p>
                     </div>
                 </li>
-                <li class="cart-item"><img src="./images/Prime.jpg" alt="marketing" width="370" height="294">
+                <li class="cart-item"><img src="./images/prime.jpg" alt="marketing" width="370" height="294">
                     <div class="cart-item-text">
                     <h3 class="project-title">Проект <span lang="en">Prime</span></h3>
                     <p class="project-body">Маркетинг</p>
                     </div>
                 </li>
-                <li class="cart-item"><img src="./images/Boxes.jpg" alt="app" width="370" height="294">
+                <li class="cart-item"><img src="./images/boxes.jpg" alt="app" width="370" height="294">
                     <div class="cart-item-text">
                     <h3 class="project-title">Проект <span lang="en">Boxes</span></h3>
                     <p class="project-body">Приложение</p>
                     </div>
                 </li>
-                <li class="cart-item"><img src="./images/Inspiration.jpg" alt="site" width="370" height="294">
+                <li class="cart-item"><img src="./images/inspiration.jpg" alt="site" width="370" height="294">
                     <div class="cart-item-text">
                     <h3 class="project-title" lang="en">Inspiration has no Borders</h3>
                     <p class="project-body">Веб-сайт</p>
                     </div>
                 </li>
-                <li class="cart-item"><img src="./images/Издание.jpg" alt="design" width="370" height="294">
+                <li class="cart-item"><img src="./images/izdanie.jpg" alt="design" width="370" height="294">
                     <div class="cart-item-text">
                     <h3 class="project-title">Издание <span lang="en">Limited Edition</span></h3>
                     <p class="project-body">Дизайн</p>
                     </div>
                 </li>
-                <li class="cart-item"><img src="./images/LAB.jpg" alt="marketing" width="370" height="294">
+                <li class="cart-item"><img src="./images/lab.jpg" alt="marketing" width="370" height="294">
                     <div class="cart-item-text">
                     <h3 class="project-title">Проект <span lang="en">LAB</span></h3>
                     <p class="project-body">Маркетинг</p>
                     </div>
                 </li>
-                <li class="cart-item"><img src="./images/Growing.jpg" alt="app" width="370" height="294">
+                <li class="cart-item"><img src="./images/growing.jpg" alt="app" width="370" height="294">
                     <div class="cart-item-text">
                     <h3 class="project-title" lang="en">Growing Business</h3>
                     <p class="project-body">Приложение</p>
@@ -123,19 +131,54 @@
     </main>
     <footer class="footer">
         <div class="container footer-container">
-            <a class="link logo logo-footer" href="">Web<span class="logo2" lang="en">Studio</span></a>
-            <address class="footer-address">
-                <a class="address-city link address-connect-item" href="https://goo.gl/maps/vY3BDn3XB5CnUUM28">г. Киев, пр-т Леси
-                    Украинки,26</a>
-                <ul class=" list menu-list footer-connect">
-                    <li class="address-connect-item footer-connect-item">
-                        <a class="link footer-contact footer-mail" href="info@example.com">info@example.com</a>
+            <div class="footer-container-address">
+                <a class="link logo logo-footer" href="">Web<span class="logo2" lang="en">Studio</span></a>
+                <address class="footer-address">
+                    <a class="address-city link address-connect-item" href="https://goo.gl/maps/vY3BDn3XB5CnUUM28">г. Киев,
+                        пр-т Леси Украинки, 26</a>
+                    <ul class=" list menu-list footer-connect">
+                        <li class="address-connect-item footer-connect-item">
+                            <a class="link footer-contact footer-mail" href="info@example.com">info@example.com</a>
+                        </li>
+                        <li class="address-connect-item footer-connect-item footer-connect-phone">
+                            <a class="link footer-contact footer-phone" href="tel:+380991111111">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-links-title">Присоединяйтесь</h3>
+                <ul class="footer-items list">
+                    <li class="footer-item">
+                        <a href="" class="footer-link footer-instagram">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="address-connect-item footer-connect-item footer-connect-phone">
-                        <a class="link footer-contact footer-phone" href="tel:+380991111111">+38 099 111 11 11</a>
+                    <li class="footer-item">
+                        <a href="" class="footer-link footer-twitter">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-link footer-facebook">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-link footer-linkedin">
+                            <svg class="footer-icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
